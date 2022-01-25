@@ -4,9 +4,20 @@ The project is about analyzing Amazon reviews written by members of the paid Ama
 So for this project we worked doing ETL again. This time we worked with Amazon´s AWS. We created a RDS Database, connected to PgAdmin and we pulled the information from a bucket that amazon gives out. Using Pyspark we completed this ETL process:  
 
 
-## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
+## Results
 
 How many Vine reviews and non-Vine reviews were there?
-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+- **Vine reviews**: 94 
+- **Non-Vine reviews**: 40471  
+  
+How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?  
+- **5 start Vine reviews**: 48 
+- **5 star Non-Vine reviews**: 15663  
+  
+What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?  
+- **Percentage 5 star Vine reviews**: 51.06% 
+- **Percentage 5 star Non-Vine reviews**: 38.71%  
+
+## Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+
+
